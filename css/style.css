@@ -36,3 +36,14 @@ h1 {
   img {
     border: 3px solid #fff;
   }
+
+  .sessao {
+    display: flex;
+  }
+  .sessao img{
+    width: 400px;
+    padding: 20px;
+  }
+  .sessao2 {
+  display: flex;
+  }
