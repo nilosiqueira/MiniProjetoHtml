@@ -20,7 +20,26 @@
     </header>
     <h1>Formulário de Contato</h1>
    <form>
-       <input type="text">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br>
+    <input type="radio" id="sim" name="radiobtn" value="Sim" checked>
+    <label for="sim">Sim</label>
+    <br>
+    <input type="radio" id="nao" name="radiobtn" value="Não">
+    <label for="nao">Não</label>
+    <br>
+    <input type="checkbox" name="checkboxbtn" id="react">
+    <label for="react">ReactJS</label>
+    <br>
+    <input type="checkbox" name="checkboxbtn" id="angular">
+    <label for="angular">AngularJS</label>
+    <br>
+    <input type="checkbox" name="checkboxbtn" id="vue">
+    <label for="vue">VueJS</label>
+    <br>
+    <button type="submit">Envia</button>
    </form>
       <footer>
         Nilo Siqueira &copy; 2021
